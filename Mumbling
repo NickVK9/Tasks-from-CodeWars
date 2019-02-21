@@ -1,0 +1,10 @@
+def accum(s):
+    b = []
+    i = 0
+    while i < len(s) :
+        z = (s[i] * (i + 1))
+        z = z.capitalize()
+        i += 1
+        b.append(z)
+    b = str('-'.join(b))
+    return b
